@@ -1,0 +1,76 @@
+
+body
+{
+    background-color: blue;
+}
+.form-container
+{
+ border: solid 1px white;
+ background-color: white;
+ width: 300px;
+ margin: auto;
+ padding: 0px 30px;
+ border-radius: 10px;
+}
+.head
+{
+    
+    text-align: center;
+}
+.input-box
+{
+    margin-bottom: 30px;
+    border: solid 1px #8080805b;
+    border-radius: 3px;
+}
+.form-element
+{
+    /* padding-top: 10px; */
+}
+
+.submit-button
+{
+    padding: 5px 67px;
+    background-color: blue;
+    color: white;
+    
+    border: solid 1px blue; 
+    
+}
+.input-box:focus
+{
+    outline: none;
+    border: solid 2px gray;  
+} 
+.form-element.success input{
+    border-color: green;
+}
+.form-element.error input{
+    border-color: red;
+}
+.form-element i{
+     /* visibility:hidden;   */
+    position: absolute;
+    right: 660px; 
+    
+    
+
+}
+#chk{
+    display: visible;
+    color: green; 
+}
+
+.form-element.error{
+    display: visible;
+    color: red;
+}
+.form-element small
+{
+    color: red;
+    position: absolute; 
+    visibility: hidden; 
+}
+.form-element.error small{
+    visibility: visible;
+}
